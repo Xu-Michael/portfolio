@@ -1,0 +1,24 @@
+.navbar-blank {
+  background-color: inherit;
+  border-color: none;
+  padding: 10px 30px;
+  .logo {
+    width: 100px;
+  }
+  .list-inline {
+    margin: none;
+  }
+  .nav-link {
+    color: $light-gray;
+    font-size: 16px;
+    transition: all .2s;
+  }
+  .nav-link:hover {
+    color: $blue-highlight;
+    background-color: transparent;
+    border-bottom: $blue-highlight solid 60%;
+  }
+  .navbar-right {
+    margin: 0;
+  }
+}

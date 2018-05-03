@@ -1,0 +1,32 @@
+// This is where you override default Bootstrap variables
+// 1. All Bootstrap variables are here => https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+// 2. These variables are defined with default value (see https://robots.thoughtbot.com/sass-default)
+// 3. You can override them below!
+
+// General style
+$font-family-sans-serif:  $avenir;
+$headings-font-family:    $avenir;
+$body-bg:                 $white;
+$font-size-base:          18px;
+$headings-font-weight:    600;
+$text-color:              $light-gray;
+$headings-color:          $dark-gray;
+$link-color:              $blue;
+$link-hover-color:        #0d35ea;
+$link-hover-decoration:   none;
+
+// Colors
+$gray-base:       $gray;
+$brand-primary:   $blue;
+$brand-success:   $green;
+$brand-info:      $yellow;
+$brand-danger:    $red;
+$brand-warning:   $orange;
+
+// Buttons & inputs' radius
+$border-radius-base:  4px;
+$border-radius-large: 8px;
+$border-radius-small: 2px;
+
+// Forms
+$input-border-radius: 4px;
