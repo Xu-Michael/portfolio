@@ -18,7 +18,14 @@
     background-color: transparent;
     border-bottom: $blue-highlight solid 60%;
   }
-  .navbar-right {
-    margin: 0;
+  .navbar-toggle {
+    margin-right: 0;
+    padding: 0;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+  li > a:focus {
+    background-color: transparent;
   }
 }
