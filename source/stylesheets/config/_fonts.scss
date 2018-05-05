@@ -39,3 +39,16 @@ p {
   display: inline;
   margin-bottom: 0;
 }
+
+.underline-heading {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.underline-heading::after {
+  content: '';
+  padding-bottom: 1.5rem;
+  display: block;
+  width: 60%;
+  border-bottom: 3px solid $blue;
+}
