@@ -1,8 +1,51 @@
-#home {
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+
+.blue-section {
+  background: $blue; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, $blue, $blue-highlight); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, $blue, $blue-highlight); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white !important;
+}
+
+
+.profile-pic {
+  width: auto;
+  height: 80%;
+}
+
+#main-banner {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/images/white-bg.svg);
+}
+
+
+@media (max-width: 1024px) {
+  #main-banner {
+    background-image: url(/images/white-bg-sm.svg);
+    background-position: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .qr-code {
+    width: 280px;
+    height: auto;
+  }
+  .flex-container {
+    h1 {
+      font-size: 32px;
+      text-align: center;
+    }
+    p {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  .profile-pic {
+    height: 50%;
+  }
+  #main-banner {
+    background-position: top;
+    background-image: url(/images/white-bg-mobile.svg);
+  }
 }

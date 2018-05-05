@@ -29,3 +29,9 @@
     background-color: transparent;
   }
 }
+
+@media (max-width: 450px) {
+  .navbar-brand {
+    padding-left: 0;
+  }
+}
