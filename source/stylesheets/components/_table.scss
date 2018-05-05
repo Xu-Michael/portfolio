@@ -1,0 +1,129 @@
+.background {
+  padding: 0 25px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.background::after {
+  content: '';
+  background: #60a9ff;
+  background: -moz-linear-gradient(top, #60a9ff 0%, #4394f4 100%);
+  background: -webkit-linear-gradient(top, #60a9ff 0%,#4394f4 100%);
+  background: linear-gradient(to bottom, #60a9ff 0%,#4394f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60a9ff', endColorstr='#4394f4',GradientType=0 );
+  height: 350px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+@media (min-width: 900px) {
+  .background {
+    padding: 0 0 25px;
+  }
+}
+
+.table-container {
+  margin: 0 auto;
+  padding: 50px 0 0;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.panel {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 15px 25px;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+.skill-table {
+  border: 1px solid $light-gray;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 900px) {
+  .skill-table {
+    flex-direction: row;
+  }
+}
+
+.skill-section {
+  border-bottom: 1px solid #e1f1ff;
+  padding: 25px;
+  text-align: center;
+  .underline-heading {
+    margin-bottom: 2.5rem;
+  }
+  .list-unstyled {
+    text-align: left;
+  }
+}
+
+.skill-section:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 900px) {
+  .skill-section {
+    border-bottom: none;
+    flex-basis: 100%;
+    padding: 25px 50px;
+  }
+
+  .skill-section:last-child {
+    border-right: none;
+  }
+}
+
+.pricing-img {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.pricing-features-item {
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+.pricing-features-item:last-child {
+  border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-price {
+  color: #016FF9;
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.pricing-button {
+  border: 1px solid #9dd1ff;
+  border-radius: 10px;
+  color: #348EFE;
+  display: inline-block;
+  margin: 25px 0;
+  padding: 15px 35px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+  background-color: #e1f1ff;
+}
+
+.pricing-button.is-featured {
+  background-color: #48aaff;
+  color: #fff;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:active {
+  background-color: #269aff;
+}

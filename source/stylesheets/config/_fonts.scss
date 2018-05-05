@@ -42,13 +42,13 @@ p {
 
 .underline-heading {
   display: inline-block;
-  margin: 0 auto;
 }
 
 .underline-heading::after {
   content: '';
+  margin: 0 auto;
   padding-bottom: 1.5rem;
   display: block;
-  width: 60%;
+  width: 70%;
   border-bottom: 3px solid $blue;
 }

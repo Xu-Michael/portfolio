@@ -1,9 +1,9 @@
 
-.blue-section {
+.bio-section {
   background: $dark-blue; /* fallback for old browsers */
-  padding: 2rem 0;
+  padding: 3rem 0;
   img {
-    margin: 0 auto;
+    margin: 1.5rem auto;
   }
   h3, p, ul {
     color: white !important;
@@ -38,6 +38,15 @@
   height: auto;
   padding-left: 0px !important;
   padding-right: 10px !important;
+}
+
+@media (min-width: 1024px) {
+  .bio-section {
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
 
 @media (max-width: 1024px) {
