@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 494 447" style="enable-background:new 0 0 494 447;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFAE00;}
+	.st1{fill:#EC6C00;}
+	.st2{fill:#FFEFB4;}
+	.st3{fill:#FED305;}
+</style>
+<title>Group</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Sketch-Flat-Logo" transform="translate(-9.000000, -28.000000)">
+		<g id="Group" transform="translate(9.000000, 28.000000)">
+			<g id="Base">
+				<polygon id="Polygon" class="st0" points="247,447 0,160 107,15 247,0 387,15 494,160 				"/>
+			</g>
+			<g id="Bottom-Back" transform="translate(0.000000, 160.000000)">
+				<polygon id="Polygon_1_" class="st1" points="247,287 0,0 494,0 				"/>
+			</g>
+			<g id="Bottom-Mid" transform="translate(100.000000, 160.000000)">
+				<polygon id="Polygon_2_" class="st0" points="147,287 0,0 294,0 				"/>
+			</g>
+			<g id="Top-Mid" transform="translate(100.000000, 0.000000)">
+				<polygon id="Polygon_3_" class="st2" points="147,0 0,160 294,160 				"/>
+			</g>
+			<g id="Top-Side-Left" transform="translate(0.000000, 15.000000)">
+				<polygon id="Polygon_4_" class="st0" points="107,0 52,73 0,145 101,145 				"/>
+			</g>
+			
+				<g id="Top-Side-Right" transform="translate(440.500000, 87.500000) scale(-1, 1) translate(-440.500000, -87.500000) translate(387.000000, 15.000000)">
+				<polygon id="Polygon_5_" class="st0" points="107,0 52,73 0,145 101,145 				"/>
+			</g>
+			<g id="Top-Left" transform="translate(100.000000, 0.000000)">
+				<polygon id="Polygon_6_" class="st3" points="7,15 0,160 147,0 				"/>
+			</g>
+			<g id="Top-Right" transform="translate(247.000000, 0.000000)">
+				<polygon id="Polygon_7_" class="st3" points="140,15 147,160 0,0 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
