@@ -65,8 +65,13 @@
   .underline-heading {
     margin-bottom: 2.5rem;
   }
-  .list-unstyled {
-    text-align: left;
+  .list-group {
+    width: 80%;
+  }
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: left;
   }
 }
 
