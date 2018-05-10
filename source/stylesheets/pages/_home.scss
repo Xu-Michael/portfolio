@@ -20,11 +20,15 @@
 .labels > li {
   font-weight: 600;
   color: $blue;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 4px;
   padding: 10px 15px;
-  border: 2px solid $blue;
+  border: 1px solid $blue;
   margin: 10px 5px;
+}
+
+.labels > li:first-child {
+  margin-left: 0;
 }
 
 #main-banner {
